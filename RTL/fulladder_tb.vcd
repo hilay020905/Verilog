@@ -1,0 +1,83 @@
+$date
+	Thu Aug  6 10:53:24 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_fulladd $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " c_out $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % c_in $end
+$var integer 32 & i [31:0] $end
+$scope module fa0 $end
+$var wire 4 ' a [3:0] $end
+$var wire 4 ( b [3:0] $end
+$var wire 1 % c_in $end
+$var wire 4 ) sum [3:0] $end
+$var wire 1 " c_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 )
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#10000
+b110 !
+b110 )
+b1 &
+1%
+b1 $
+b1 (
+b100 #
+b100 '
+#20000
+1"
+b1 !
+b1 )
+b10 &
+b1101 $
+b1101 (
+b11 #
+b11 '
+#30000
+0"
+b1000 !
+b1000 )
+b11 &
+b10 $
+b10 (
+b101 #
+b101 '
+#40000
+b100 !
+b100 )
+1"
+b100 &
+b110 $
+b110 (
+b1101 #
+b1101 '
+#50000
+b1010 !
+b1010 )
+b101 &
+b1100 $
+b1100 (
+#60000
